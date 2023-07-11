@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Welcome to new Flask Application 1.0"
+    return "Hello world from flask app"
 
 
 if __name__ == "__main__":
